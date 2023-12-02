@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 2;
+  place-items: center;
+  border: solid;
+  padding: 10px;
+}
+.top-container {
+  grid-column: 2;
+  grid-row: 1;
+  place-items: center;
+}
+p {
+  font-size: 14pt;
+}
+.middle-container {
+  grid-column: 2;
+  grid-row: 2;
+}
+#display-table {
+  /* text-align: left; */
+  border-spacing: 20px 0px;
+}
+thead {
+  font-size: 14pt;
+}
+tr {
+  padding: 20px;
+}
+td {
+  border-spacing: 5px;
+}
